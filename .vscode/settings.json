@@ -1,0 +1,168 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "chrono": "cpp",
+        "vector": "cpp",
+        "deque": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "cctype": "cpp",
+        "cfenv": "cpp",
+        "charconv": "cpp",
+        "cinttypes": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "codecvt": "cpp",
+        "complex": "cpp",
+        "condition_variable": "cpp",
+        "csetjmp": "cpp",
+        "csignal": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cuchar": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "map": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "regex": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "future": "cpp",
+        "initializer_list": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "mutex": "cpp",
+        "new": "cpp",
+        "scoped_allocator": "cpp",
+        "shared_mutex": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "thread": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "valarray": "cpp",
+        "queue": "cpp",
+        "unistd.h": "c",
+        "stat.h": "c",
+        "stdlib.h": "c",
+        "lst_timer.h": "c",
+        "threadpool.h": "c",
+        "http_conn.h": "c",
+        "locker.h": "c",
+        "epoll.h": "c",
+        "assert.h": "c",
+        "log.h": "c",
+        "sql_connection_pool.h": "c",
+        "mysql.h": "c",
+        "errno.h": "c",
+        "socket.h": "c",
+        "in.h": "c",
+        "string.h": "c",
+        "pthread.h": "c",
+        "wait.h": "c",
+        "cassert": "c"
+    },
+
+    // 自动补全
+    "C_Cpp.autocomplete":"Default",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+
+    // 字符分割
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?·～！￥…（）—【】、；：‘’“”，。《》？ ",
+    
+    // 自带的小地图大小
+    "editor.minimap.maxColumn": 40,
+    
+    // 完整显示文件路径名
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+    
+    // 自动识别文件编码
+    "files.autoGuessEncoding": true,
+    
+    // 控制栏放右边
+    "workbench.sideBar.location": "right",
+
+    // 终端
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.explorerKind": "integrated",
+
+
+    // 主题
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.preferredLightColorTheme": "Solarized Dark",
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
+
+    // 字体
+    "editor.cursorStyle": "line",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.lineHeight": 0,
+    "editor.lineNumbers": "on",
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+    "editor.comments.insertSpace": true,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.dragAndDrop": true,
+    "editor.foldingHighlight": true,
+    "editor.fontFamily": "'Ubuntu Mono', Consolas, 'Courier New', monospace",
+    "editor.renderIndentGuides": true,
+    "editor.tabCompletion": "on",
+    "editor.suggest.insertMode": "replace",
+    "editor.suggest.showCustomcolors": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false, 
+    // 注释字体      
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "name": "Comment",
+            "scope": [
+              "comment",
+              "comment.block",
+              "comment.block.documentation",
+              "comment.line",
+              "comment.line.double-slash",
+              "punctuation.definition.comment",
+            ],
+            "settings": {
+              "fontStyle": "",
+            }
+          },
+        ]
+      },
+}
